@@ -1,13 +1,13 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import './all.sass';
+import useSiteMetadata from './SiteMetadata';
+import { withPrefix } from 'gatsby';
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
     <div>
       <Helmet>
@@ -48,11 +48,14 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
+      <div className="container content has-text-centered">
+        <h1>Asociatia SAO - CIOBANESC DE ASIA CENTRALA ("ASAO")</h1>
+      </div>
       <Navbar />
-      <div>{children}</div>
-      <Footer />
+      {/* <div>{children}</div>
+      <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
