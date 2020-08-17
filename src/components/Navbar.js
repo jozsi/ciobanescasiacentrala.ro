@@ -82,12 +82,13 @@ const Navbar = class extends React.Component {
             >
               Procedura dobandire calitate membru ASAO
             </Link>
+            */}
             <Link
               className="navbar-item"
               href="/doc/convocare-18-08-2020-Asociatia-SAO.docx"
             >
               <strong>Convocare 18.08.2020 - Asociatia SAO</strong>
-            </Link> */}
+            </Link>
             {/* </div> */}
           </div>
         </div>
