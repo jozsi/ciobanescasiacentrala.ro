@@ -64,6 +64,9 @@ const Navbar = class extends React.Component {
             <Link className="navbar-item" href="/doc/statut-SAO.pdf">
               Statut Asociatie "ASAO"
             </Link>
+            <Link className="navbar-item" href="/doc/act-constitutiv-SAO.pdf">
+              Act Constitutiv Asociatie "ASAO"
+            </Link>
             <Link
               className="navbar-item"
               href="/doc/standard-ciobanesc-de-asia-centrala.pdf"
@@ -76,18 +79,17 @@ const Navbar = class extends React.Component {
             >
               Standard Central Asia Shepherd Dog (English)
             </Link>
-            {/* <Link
+            <Link
               className="navbar-item"
-              href="/doc/procedura-dobandire-calitate-membru-ASAO.docx"
+              href="/doc/procedura-dobandire-calitate-membru-ASAO.pdf"
             >
               Procedura dobandire calitate membru ASAO
             </Link>
-            */}
             <Link
               className="navbar-item"
               href="/doc/convocare-18-08-2020-Asociatia-SAO.docx"
             >
-              <strong>Convocare 18.08.2020 - Asociatia SAO</strong>
+              Convocare 18.08.2020 - Asociatia SAO
             </Link>
             {/* </div> */}
           </div>

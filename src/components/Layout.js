@@ -50,6 +50,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <div className="container content has-text-centered">
         <h1>Asociatia SAO - CIOBANESC DE ASIA CENTRALA ("ASAO")</h1>
+        <h2>Pagina in constructie</h2>
       </div>
       <Navbar />
       {/* <div>{children}</div>
