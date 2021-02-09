@@ -85,11 +85,17 @@ const Navbar = class extends React.Component {
             >
               Procedura dobandire calitate membru ASAO
             </Link>
+            <Link className="navbar-item" href="/doc/taxe-tarife-ASAO.pdf">
+              Taxe si Tarife - Asociatia SAO
+            </Link>
             <Link
               className="navbar-item"
               href="/doc/convocare-18-08-2020-Asociatia-SAO.docx"
             >
               Convocare 18.08.2020 - Asociatia SAO
+            </Link>
+            <Link className="navbar-item" href="/doc/contact-ASAO.pdf">
+              Contact - Asociatia SAO
             </Link>
             {/* </div> */}
           </div>
